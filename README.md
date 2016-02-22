@@ -13,6 +13,13 @@ To handle this problem we have to build a *keyword extractor* which learns , ana
 
 My goal is build up a program accordingly. And then, integrate it most well-known web scripts (joomla, Wordpress, Vbulletin, MyBB, PhpBB also .asp and .aspx )
 
+# How does keyword extraction work?
+  * **Candidate selection**: Here, we extract all possible words, phrases, terms or concepts (depending on the task) that can potentially be keywords.
+ 
+  * **Properties calculation**: For each candidate, we need to calculate properties that indicate that it may be a keyword. For example, a candidate appearing in the title of a book is a likely keyword.
+
+  * **Scoring and selecting keywords**: All candidates can be scored by either combining the properties into a formula, or using a machine learning technique to determine probability of a candidate being a keyword. A score or probability threshold, or a limit on the number of keywords is then used to select the final set of keywords.
+
 #Usage Areas Of Keywords
   * 'Libraries'
   * 'Internet'
