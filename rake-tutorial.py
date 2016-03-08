@@ -9,7 +9,7 @@ import io
 stoppath = "SmartStoplist.txt"
 
 # 1. initialize RAKE by providing a path to a stopwords file
-rake_object = rake.Rake(stoppath, 5, 3, 4)
+rake_object = rake.Rake(stoppath, 5, 3, 1)
 
 # 2. run on RAKE on a given text
 sample_file = io.open("test/a1.txt", 'r',encoding="UTF-8")
