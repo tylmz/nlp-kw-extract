@@ -11,7 +11,6 @@ might be **'i' , 'm', 'the'** or **'of'** for this sentence but in return there 
 When you are embarking on your SEO journey, the first part of your strategy always includes creating a key phrase plan. It’s important to pick the right key phrases!
 To handle this problem we have to build a *keyword extractor* which learns , analyse and suggest better and wisely chosen keywords for meta tagging. 
 
-My goal is build up a program accordingly. And then, integrate it most well-known web scripts (joomla, Wordpress, Vbulletin, MyBB, PhpBB also .asp and .aspx )
 
 # How does keyword extraction work?
   * **Candidate selection**: Here, we extract all possible words, phrases, terms or concepts (depending on the task) that can potentially be keywords.
